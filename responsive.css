@@ -1,0 +1,19 @@
+@media (min-width: 320px) and (max-width: 668px) {
+  nav.navBar {
+    display: none;
+  }
+
+  section.journeyTop {
+    flex-direction: column-reverse;
+    padding: 10px;
+    text-align: center;
+  }
+
+  section.journeyTop > .journeyTopText {
+    width: 100%;
+  }
+
+  div.journeyTopImg {
+    width: 100%;
+  }
+}
