@@ -104,3 +104,55 @@ a {
   width: 100%;
 }
 /* ------------------------------------------------Logo Section Ends------------------------------------------- */
+
+/* ------------------------------------------------Footer Section Starts------------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 15, 58);
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+footer > h1 {
+  margin-top: 25px;
+  margin-bottom: -15px;
+}
+
+footer > p {
+  letter-spacing: 1.5px;
+}
+
+.footerP {
+  margin-top: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.icon > i {
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 30px;
+  /* background-color: black; */
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------------------Footer Section Starts------------------------------------------- */
