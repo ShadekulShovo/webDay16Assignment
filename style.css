@@ -138,6 +138,10 @@ a {
   justify-content: center;
 }
 
+.product > h1 {
+  margin-top: 5px;
+}
+
 .products > .product {
   box-shadow: 0px 6px 45px gray;
   padding: 22px;
