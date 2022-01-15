@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 668px) {
-  nav.navBar {
+  .navBar > .navBarLeft {
     display: none;
   }
 
