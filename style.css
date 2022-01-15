@@ -105,6 +105,81 @@ a {
 }
 /* ------------------------------------------------Logo Section Ends------------------------------------------- */
 
+/* ------------------------------------------------Populer Products Section Starts------------------------------------------- */
+
+.productsSection {
+  padding: 20px;
+  width: 98%;
+  margin: 80px auto;
+}
+
+.productsSection > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(54, 52, 52);
+  margin-bottom: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.product {
+  width: 90%;
+  height: auto;
+  padding: 18px 26px 21px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.products > .product {
+  box-shadow: 0px 6px 45px gray;
+  padding: 22px;
+  border-radius: 10px;
+}
+
+.product:hover {
+  box-shadow: 0px 6px 45px wheat;
+  cursor: pointer;
+}
+
+.product > img {
+  width: 100%;
+  transition: 1.05s ease;
+}
+
+.product:hover > img {
+  transform: scale(1.0255);
+}
+
+.stars {
+  color: gold;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.seeMoreButton {
+  text-align: right;
+  padding: 40px;
+}
+
+.seeMoreButton > a {
+  color: rgb(192, 49, 120);
+  font-weight: bold;
+}
+
+.seeMoreButton > a > i {
+  margin-left: 5px;
+}
+
+/* ------------------------------------------------Populer Products Section Ends------------------------------------------- */
+
 /* ------------------------------------------------Footer Section Starts------------------------------------------- */
 
 footer {

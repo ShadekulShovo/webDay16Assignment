@@ -27,5 +27,17 @@
 
   .footerP {
     text-align: center;
+    width: 100%;
+  }
+
+  section.productsSection {
+    margin-bottom: 0;
+  }
+
+  .productsSection > .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
