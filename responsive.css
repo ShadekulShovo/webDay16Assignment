@@ -40,4 +40,8 @@
     align-items: center;
     justify-content: center;
   }
+
+  .seeMoreButton {
+    margin-bottom: 83px;
+  }
 }
